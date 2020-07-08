@@ -4,6 +4,8 @@
   "rules": {
     "quotes": ["error", "double"],
     "indentation": ["error", 4],
-    "linebreak-style": ["error", "unix"]
+    "linebreak-style": ["error", "unix"],
+    "security/no-tx-origin": "off",
+    "security/no-low-level-calls": "off"
   }
 }
